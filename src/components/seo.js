@@ -1,11 +1,11 @@
-import React from 'react';
-import Head from 'next/head';
+import React from "react";
+import Head from "next/head";
 
 export default function SEO({
-  description = 'startup product landing page',
-  author = 'JSM',
+  description = "Digital Band is a digital product startup that specalizes in all sorts of digital products",
+  author = "Osama",
   meta,
-  title = 'startup landing title',
+  title = "Digital Band",
 }) {
   const metaData = [
     {
@@ -41,7 +41,7 @@ export default function SEO({
       content: description,
     },
   ].concat(meta);
-  
+
   return (
     <Head>
       <title>{title}</title>
